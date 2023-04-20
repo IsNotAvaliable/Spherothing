@@ -37,6 +37,7 @@ rvr.reset_yaw()
 # As directions: 0 is forward, 270 is right, 180 is backward and 90 is left. coordinates in meters.
 # Turns right first, 0 = face left
 # Straight Lines
+# Rotates AFTER moving
 pattern = [[270, 0.0, 2.1, 6.5], [180, 1.3, 2.1, 3.5], [ 90, 1.3, 2.1, 2.8],
            [  0, 1.0, 2.0, 2.5], ]
 
